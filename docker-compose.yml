@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  discgram:
+    container_name: discgram
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .env
+    restart: unless-stopped

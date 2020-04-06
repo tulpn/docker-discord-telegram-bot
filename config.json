@@ -1,0 +1,15 @@
+
+{
+    "DEBUG": false,
+    "TELEGRAM": {
+        "PROD_CHANNEL_ID":"",
+        "DEBUG_CHANNEL_ID":"",
+        "COMMAND_PREFIX": "/",
+        "SECRET_TOKEN":""
+    },
+
+    "DISCORD": {
+        "COMMAND_PREFIX": "!",
+        "SECRET_TOKEN":""
+    }
+}
